@@ -1,0 +1,13 @@
+{
+  "Sensitivity.S0|block": "515 Lux - 1280ms",
+  "Sensitivity.S16|block": "16496 Lux 40ms",
+  "Sensitivity.S1|block": "1031 Lux - 640ms",
+  "Sensitivity.S2|block": "2062 Lux - 320ms",
+  "Sensitivity.S4|block": "4124 Lux - 160ms",
+  "Sensitivity.S8|block": "8248 Lux - 80ms",
+  "sensors.calliopeBuntColor|block": "get light color",
+  "sensors.calliopeBuntSetSensitivity|block": "set light sensitivity to %sensitivity=sensitivity_id",
+  "sensors.sensitivity|block": "%c",
+  "sensors|block": "sensors",
+  "{id:category}Sensors": "Sensors"
+}

@@ -1,0 +1,6 @@
+{
+  "sensors": "Farbwerte vom Sensor 'bunt' lesen",
+  "sensors.calliope-buntColor": "Farbwert vom Sensor empfangen",
+  "sensors.calliope-buntSetSensitivity": "Lichtempfindlichkeit des Farbsensors einstellen"
+  "sensors.sensitivity": "Wandelt die Lichtempfindlichkeit in eine Zahl um",
+}
