@@ -1,20 +1,20 @@
 enum Sensitivity {
-    //% blockIdentity=calliope-bunt.sensitivity
-    //% block="16496 Lux 40ms"
+    //% blockIdentity=calliopeBunt.sensitivity
+    //% block="16496 Lux - 40ms"
     S16 = 0b000,
-    //% blockIdentity=calliope-bunt.sensitivity
+    //% blockIdentity=calliopeBunt.sensitivity
     //% block="8248 Lux - 80ms"
     S8 = 0b001,
-    //% blockIdentity=calliope-bunt.sensitivity
+    //% blockIdentity=calliopeBunt.sensitivity
     //% block="4124 Lux - 160ms"
     S4 = 0b010,
-    //% blockIdentity=calliope-bunt.sensitivity
+    //% blockIdentity=calliopeBunt.sensitivity
     //% block="2062 Lux - 320ms"
     S2 = 0b011,
-    //% blockIdentity=calliope-bunt.sensitivity
+    //% blockIdentity=calliopeBunt.sensitivity
     //% block="1031 Lux - 640ms"
     S1 = 0b100,
-    //% blockIdentity=calliope-bunt.sensitivity
+    //% blockIdentity=calliopeBunt.sensitivity
     //% block="515 Lux - 1280ms"
     S0 = 0b101,
 }
@@ -28,7 +28,7 @@ namespace sensors {
     let colorSensitivity = Sensitivity.S4;
 
     /**
-     * Converts the sensitivity name to a number
+     * Converts the sensitivity name to a number.
      */
     //% blockId=sensitivity_id block="%c" shim=TD_ID
     export function sensitivity(c: Sensitivity): number {
@@ -36,9 +36,9 @@ namespace sensors {
     }
 
     /**
-     * Set sensivity for the Calliope mini RGB sensor
+     * Set sensivity for the Calliope mini RGB sensor.
      */
-    //% blockId=calliope-bunt_sensitivity block="set light sensitivity to %sensitivity=sensitivity_id"
+    //% blockId=calliopeBunt_sensitivity block="set light sensitivity to %sensitivity=sensitivity_id"
     //% parts="calliope-bunt"
     //% trackArgs=0
     export function calliopeBuntSetSensitivity(sensitivity: number): void{
@@ -46,9 +46,9 @@ namespace sensors {
     }
 
     /**
-     * Get RGBW values from Calliope mini RGB sensor
+     * Get RGBW values from Calliope mini RGB sensor.
      */
-    //% blockId=calliope-bunt_rgb block="get light color"
+    //% blockId=calliopeBunt_rgb block="read light color"
     //% parts="calliope-bunt"
     //% trackArgs=0
     export function calliopeBuntColor(): number {

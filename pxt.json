@@ -9,7 +9,9 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/de/calliope-bunt-jsdoc-strings.json",
+        "_locales/de/calliope-bunt-strings.json"
     ],
     "testFiles": [
         "tests.ts"

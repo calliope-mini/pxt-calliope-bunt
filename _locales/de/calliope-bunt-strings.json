@@ -1,0 +1,13 @@
+{
+  "Sensitivity.S0|block": "515 Lux (Nacht, extrem langsam)",
+  "Sensitivity.S1|block": "1031 Lux (Abend, recht langsam)",
+  "Sensitivity.S2|block": "2062 Lux (Dämmerung, langsam)",
+  "Sensitivity.S4|block": "4124 Lux (Bewölkt, recht schnell)",
+  "Sensitivity.S8|block": "8248 Lux (Tageslicht, schnell)",
+  "Sensitivity.S16|block": "16496 Lux (Sonnenschein, sehr schnell)",
+  "sensors.calliopeBuntColor|block": "Lichtfarbe",
+  "sensors.calliopeBuntSetSensitivity|block": "setze Lichtempfindlichkeit auf %sensitivity=sensitivity_id",
+  "sensors.sensitivity|block": "%c",
+  "sensors|block": "Sensoren",
+  "{id:category}Sensors": "Sensoren"
+}
