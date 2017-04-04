@@ -1,6 +1,10 @@
 {
   "sensors": "Read data from an Calliope mini RGB sensor.",
+  "sensors.calliopeBuntBlue": "Get RGBW values from Calliope mini RGB sensor.",
   "sensors.calliopeBuntColor": "Get RGBW values from Calliope mini RGB sensor.",
+  "sensors.calliopeBuntGreen": "Get RGBW values from Calliope mini RGB sensor.",
+  "sensors.calliopeBuntRed": "Get RGBW values from Calliope mini RGB sensor.",
   "sensors.calliopeBuntSetSensitivity": "Set sensivity for the Calliope mini RGB sensor.",
+  "sensors.calliopeBuntWhite": "Get RGBW values from Calliope mini RGB sensor.",
   "sensors.sensitivity": "Converts the sensitivity name to a number."
 }

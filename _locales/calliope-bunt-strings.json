@@ -5,8 +5,12 @@
   "Sensitivity.S2|block": "2062 Lux - 320ms",
   "Sensitivity.S4|block": "4124 Lux - 160ms",
   "Sensitivity.S8|block": "8248 Lux - 80ms",
+  "sensors.calliopeBuntBlue|block": "erkannte Blau Farbe",
   "sensors.calliopeBuntColor|block": "read light color",
+  "sensors.calliopeBuntGreen|block": "erkannte Grün Farbe",
+  "sensors.calliopeBuntRed|block": "erkannte Rot Farbe",
   "sensors.calliopeBuntSetSensitivity|block": "set light sensitivity to %sensitivity=sensitivity_id",
+  "sensors.calliopeBuntWhite|block": "erkannte Helligkeit",
   "sensors.sensitivity|block": "%c",
   "sensors|block": "sensors",
   "{id:category}Sensors": "Sensors"

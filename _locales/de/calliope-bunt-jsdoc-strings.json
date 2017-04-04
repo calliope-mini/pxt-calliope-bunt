@@ -1,6 +1,10 @@
 {
   "sensors": "Lichtfarbe vom Calliope mini bunt Sensor lesen.",
-  "sensors.calliopeBuntColor": "Lichtfarbe vom Calliope mini bunt sensor lesen.",
+  "sensors.calliopeBuntBlue": "Blauanteil aus dem Calliope mini bunt Sensor lesen.",
+  "sensors.calliopeBuntColor": "Lichtfarbe vom Calliope mini bunt Sensor lesen.",
+  "sensors.calliopeBuntGreen": "Grünanteil aus dem Calliope mini bunt Sensor lesen.",
+  "sensors.calliopeBuntRed": "Rotanteil aus dem Calliope mini bunt Sensor lesen.",
   "sensors.calliopeBuntSetSensitivity": "Lichtempfindlichkeit des Calliope mini Farbsensors einstellen.",
+  "sensors.calliopeBuntWhite": "Get RGBW values from Calliope mini RGB sensor.",
   "sensors.sensitivity": "Wandelt den Namen der Lichtempfindlichkeit in eine Zahl um."
 }
