@@ -4,8 +4,7 @@
     "description": "Calliope Bunt Sensor",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "file:../core"
     },
     "files": [
         "README.md",
