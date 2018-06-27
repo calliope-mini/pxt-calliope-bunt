@@ -1,16 +1,16 @@
 {
-    "name": "calliope-bunt",
+    "name": "pxt-calliope-bunt",
     "version": "0.0.1",
     "description": "Calliope Bunt Sensor",
     "license": "MIT",
     "dependencies": {
-        "core": "file:../core"
+        "core": "*"
     },
     "files": [
         "README.md",
         "main.ts",
-        "_locales/de/calliope-bunt-jsdoc-strings.json",
-        "_locales/de/calliope-bunt-strings.json"
+        "_locales/de/pxt-calliope-bunt-jsdoc-strings.json",
+        "_locales/de/pxt-calliope-bunt-strings.json"
     ],
     "testFiles": [
         "tests.ts"
